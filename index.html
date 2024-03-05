@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <section class="tracking" id="tracking">
+      <div class="container">
+        <div class="title__wrapper">
+          <h2 class="tracking__title">Отслеживание товара</h2>
+          <div class="title__line"></div>
+        </div>
+        <form class="tracking__inputs">
+          <input
+            type="text"
+            id="tracking__input"
+            class="tracking__input"
+            placeholder="JT5656565656"
+          />
+          <label for="tracking__input"
+            ><button class="tracking__btn">ОТПРАВИТЬ</button>
+          </label>
+        </form>
+        <div class="tracking__selected-items">
+          <div class="selected__item">
+            <p class="item-name">JT5656565656</p>
+            <button class="delete-item">
+              <img src="./assets/src/delete-item.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="status">
+          <p class="status__title">
+            <span>дата</span> <span>статус</span>
+        </p>
+
+          <ul class="status__list">
+            <li class="status__list-item">
+              <span class="date">12.02.2023</span>
+              <span class="location">Поступил на склад</span>
+            </li>
+            <li class="status__list-item">
+              <span class="date">30.10.2025</span>
+              <span class="location">В пути</span>
+            </li>
+            <li class="status__list-item">
+              <span class="date">20.12.2025</span>
+              <span class="location">Прибыл в Бишкек</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+@import url(fonts.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1285px;
+  padding: 0 15px;
+}
+.tracking {
+  padding: 120px 78px 0;
+}
+.title__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.tracking__title {
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  color: #282b26;
+}
+.title__line {
+  width: 100%;
+  max-width: 657px;
+  height: 1px;
+  background-color: black;
+  /* background: #ececec; */
+}
+.tracking__inputs {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 100px;
+}
+.tracking__input {
+  border: 1px solid #686a67;
+  width: 584px;
+  height: 80px;
+  background: #fff;
+  opacity: 0.7;
+  padding: 29px 20px;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 85%;
+  letter-spacing: -0.02em;
+  color: #282b26;
+}
+.tracking__input::placeholder {
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 85%;
+  letter-spacing: -0.02em;
+  color: #282b26;
+}
+.tracking__btn {
+  width: 284px;
+  height: 80px;
+  background: #282b26;
+  opacity: 0.7;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ececec;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.selected__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  padding: 9px 15px;
+  width: 100%;
+  max-width: fit-content;
+  height: 40px;
+  background: #ececec;
+  margin-top: 20px;
+}
+.item-name {
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #686a67;
+}
+.delete-item {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  width: 12px;
+  height: 14px;
+}
+.status {
+  margin-top: 60px;
+}
+.status__title {
+  display: flex;
+  gap: 200px;
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+  color: #686a67;
+  margin-bottom: 32px;
+  margin-left: 2px;
+}
+.status__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.status__list-item {
+  display: flex;
+  gap: 200px;
+}
+.date {
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #282b26;
+}
+.location {
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 85%;
+  letter-spacing: -0.02em;
+  color: #282b26;
+}
